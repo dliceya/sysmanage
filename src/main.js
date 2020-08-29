@@ -15,7 +15,7 @@ import echarts from 'echarts'
 Vue.config.productionTip = false;
 
 //引入自定义权限校验指令
-import permission from './common/permission'
+import permission from './common/permission';
 
 //自定义全局方法引用
 import { parseTime, addDateRange, resetForm, randomNum} from './common/utils'
